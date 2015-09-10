@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PuzzleBuzzle</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_insert_name">InsertName</string>
+    <string name="title_activity_settings_main">SettingsMain</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_score_display">ScoreDisplay</string>
+    <string name="title_activity_background_view_rounded_single">background_view_rounded_single
+    </string>
+    <string name="title_activity_play_game">PlayGame</string>
+</resources>

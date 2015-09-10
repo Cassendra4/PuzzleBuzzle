@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cassendra.puzzlebuzzle.InsertName"
+    android:background="#ff0ab7ca">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="#dd010512"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/bicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Login"
+            android:textSize="30dp"
+            android:id="@+id/textView2"
+            android:textColor="#ffffffff"
+            android:textIsSelectable="false"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="Insert Your Name"
+            android:id="@+id/textView"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingRight="10dp"
+            android:layout_above="@+id/Name"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/Name"
+            android:textColor="#ffffffff"
+            android:background="#ff000000"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="58dp"
+            android:text=""
+            android:id="@+id/button"
+            android:onClick="startButton"
+            android:layout_marginBottom="91dp"
+            android:background="@drawable/playbutt"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="70dp"
+            android:layout_alignLeft="@+id/button3"
+            android:paddingLeft="30dp" />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="58dp"
+            android:text=""
+            android:id="@+id/button3"
+            android:onClick="startButton"
+            android:background="@drawable/menubutt"
+            android:layout_alignTop="@id/button"
+            android:layout_marginLeft="70dp"
+             />
+    </RelativeLayout>
+
+</RelativeLayout>

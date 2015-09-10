@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cassendra.puzzlebuzzle.MainMenu"
+    android:background="#ff0ab7ca">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="#dd010512"
+        android:id="@+id/linearLayout3">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:id="@+id/imageView3"
+            android:background="@drawable/bicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Menu"
+            android:id="@+id/textView3"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffffff"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/button4"
+        android:background="@drawable/settingsbutt"
+        android:onClick="startButton"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/button6"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/button5"
+        android:background="@drawable/help"
+        android:onClick="startButton"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/button4" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/button6"
+        android:onClick="startButton"
+        android:background="@drawable/scorebutton"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+</RelativeLayout>

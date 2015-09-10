@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      tools:context="com.example.cassendra.puzzlebuzzle.ScoreDisplay"
+    android:background="#ff0ab7ca">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dd010512"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout5">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:id="@+id/imageView5"
+            android:background="@drawable/bicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="High Score"
+            android:id="@+id/textView11"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:paddingLeft="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name1"
+        android:id="@+id/txtname1"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#fffaff3e"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name2"
+        android:id="@+id/txtname2"
+        android:layout_marginTop="50dp"
+        android:textColor="#fffaff3e"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/txtname1"
+        android:layout_alignLeft="@+id/txtname1"
+        android:layout_alignStart="@+id/txtname1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name3"
+        android:id="@+id/txtname3"
+        android:layout_marginTop="50dp"
+        android:textColor="#fffaff3e"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/txtname2"
+        android:layout_alignLeft="@+id/txtname2"
+        android:layout_alignStart="@+id/txtname2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name4"
+        android:id="@+id/txtname4"
+        android:layout_marginTop="50dp"
+        android:textColor="#fffaff3e"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/txtname3"
+        android:layout_alignLeft="@+id/txtname3"
+        android:layout_alignStart="@+id/txtname3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name5"
+        android:id="@+id/txtname5"
+        android:layout_marginTop="50dp"
+        android:textColor="#fffaff3e"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/txtname4"
+        android:layout_alignLeft="@+id/txtname4"
+        android:layout_alignStart="@+id/txtname4" />
+
+</RelativeLayout>

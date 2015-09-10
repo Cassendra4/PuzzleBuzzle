@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cassendra.puzzlebuzzle.Help"
+    android:background="#ff0ab7ca">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#dd010512"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout4">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:id="@+id/imageView4"
+            android:background="@drawable/bicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Help"
+            android:id="@+id/textView4"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solve the puzzle during the given time."
+            android:id="@+id/textView5"
+            android:textSize="30dp"
+            android:textColor="#ff000000"
+            android:singleLine="false"
+            android:textIsSelectable="false"
+            android:elegantTextHeight="true"
+            android:paddingLeft="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="150dp"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="At each level different jigsaw is given"
+            android:id="@+id/textView6"
+            android:paddingLeft="30dp"
+            android:textSize="30dp"
+            android:textColor="#ff020202"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignRight="@+id/textView5"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView5"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap the start button to begin the game"
+            android:id="@+id/textView7"
+            android:paddingLeft="30dp"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView6"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get the highest score of the level!!!"
+            android:id="@+id/textView8"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:paddingLeft="30dp"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignRight="@+id/textView7"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minions Present Puzzle Buzzle!!!"
+            android:id="@+id/textView9"
+            android:paddingLeft="20dp"
+            android:textSize="40dp"
+            android:textColor="#ffcc1fb1"
+            android:elegantTextHeight="true"
+            android:singleLine="false"
+            android:shadowColor="#ff000000"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
